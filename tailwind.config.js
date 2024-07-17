@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'navLogo' : ['Pacifico', 'sans-serif']
+      },
+      backgroundImage : {
+        'navBg' : "url('/resources/navBg.jpg')"
       }
     },
   },
