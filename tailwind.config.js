@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'navLogo' : ['Pacifico', 'sans-serif']
+        'navLogo' : ['Pacifico', 'sans-serif'],
+        'mainText' : ['Poppins', 'sans-serif']
       },
       backgroundImage : {
         'navBg' : "url('/resources/navBg.jpg')"

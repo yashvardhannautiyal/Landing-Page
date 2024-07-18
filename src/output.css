@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* ! tailwindcss v3.4.6 | MIT License | https://tailwindcss.com */
+/* logo font  */
+
+/* main font  */
+
+/* ! tailwindcss v3.4.6 | MIT License | https://tailwindcss.com  */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -556,8 +560,52 @@ video {
   --tw-contain-style:  ;
 }
 
+.fixed{
+  position: fixed;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.inset-0{
+  inset: 0px;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.m-2{
+  margin: 0.5rem;
+}
+
+.mt-16{
+  margin-top: 4rem;
+}
+
+.block{
+  display: block;
+}
+
 .flex{
   display: flex;
+}
+
+.hidden{
+  display: none;
+}
+
+.h-\[1px\]{
+  height: 1px;
+}
+
+.h-screen{
+  height: 100vh;
 }
 
 .items-center{
@@ -572,8 +620,8 @@ video {
   gap: 3rem;
 }
 
-.border-t{
-  border-top-width: 1px;
+.rounded-2xl{
+  border-radius: 1rem;
 }
 
 .border-black{
@@ -581,20 +629,58 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
 .bg-transparent{
   background-color: transparent;
 }
 
-.bg-opacity-50{
-  --tw-bg-opacity: 0.5;
+.bg-opacity-70{
+  --tw-bg-opacity: 0.7;
+}
+
+.bg-opacity-90{
+  --tw-bg-opacity: 0.9;
 }
 
 .bg-navBg{
   background-image: url('/resources/navBg.jpg');
 }
 
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.p-2{
+  padding: 0.5rem;
+}
+
+.p-3{
+  padding: 0.75rem;
+}
+
 .p-4{
   padding: 1rem;
+}
+
+.font-mainText{
+  font-family: Poppins, sans-serif;
 }
 
 .font-navLogo{
@@ -606,8 +692,41 @@ video {
   line-height: 2.25rem;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-8xl{
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.font-light{
+  font-weight: 300;
+}
+
 .font-medium{
   font-weight: 500;
+}
+
+.font-normal{
+  font-weight: 400;
 }
 
 .text-white{
@@ -615,7 +734,32 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:text-gray-200:hover{
+.hover\:bg-gray-400:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.hover\:text-gray-300:hover{
   --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:flex{
+    display: flex;
+  }
+
+  .lg\:hidden{
+    display: none;
+  }
 }
