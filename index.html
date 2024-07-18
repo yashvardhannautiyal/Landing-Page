@@ -11,7 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <!-- close icon  -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body class="font-mainText font-light">
     <!------------------------ NAVBAR ---------------------->
@@ -22,7 +25,9 @@
         >
           <!-- logoName -->
           <a href="#" class="flex items-center">
-            <span class="font-navLogo text-4xl p-3 text-white ">BharatVoyage</span>
+            <span class="font-navLogo text-4xl p-3 text-white"
+              >BharatVoyage</span
+            >
           </a>
           <!-- menu : for medium and large screen  -->
           <div id="menu" class="hidden lg:flex gap-12">
@@ -34,8 +39,7 @@
 
           <!-- menu : for small screen  -->
           <button class="lg:hidden" onclick="menu()">
-            <span class="material-symbols-outlined">
-                menu<!-- open menu icon  --></span>
+            <span class="material-symbols-outlined">menu<!-- open menu icon  --></span>
           </button>
 
           <div id="dialog" class="hidden fixed bg-black inset-0 p-3 z-10 lg:hidden">
@@ -44,21 +48,30 @@
                 <span class="font-navLogo text-4xl p-3">BharatVoyage</span>
               </a>
 
-              <button class=" lg:hidden" onclick="menu()">
-                <span class="material-symbols-outlined">
-                    close<!-- close menu icon  -->
-                    </span>
+              <button class="lg:hidden" onclick="menu()">
+                <span class="material-symbols-outlined">close<!-- close menu icon  --></span>
               </button>
             </div>
             <div id="menu" class="mt-16">
-                <a href="#" class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl">Home</a>
-                <a href="#" class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl">Trip Planner</a>
-                <a href="#" class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl">Blog</a>
-                <a href="#" class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl">Categories</a>
-              </div>
-              <div class="h-[1px] bg-gray-300"></div> <!--line-->
+              <a href="#" class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl"
+                >Home</a>
+              <a href="#" class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl"
+                >Trip Planner</a>
+              <a href="#" class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl"
+              >Blog</a>
+              <a href="#" class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl"
+              >Categories</a>
+            </div>
+            <div class="h-[1px] bg-gray-300"></div>
+            <!--line-->
           </div>
         </nav>
+
+        <!---------------------------- HERO SECTION  --------------------------->
+        <div id="hero-section">
+          <p class="font-medium ">We are wonder of your vacation</p>
+          <h1>Discover the world with our guide</h1>
+        </div>
       </div>
     </div>
   </body>
