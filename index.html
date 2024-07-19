@@ -16,12 +16,24 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <!-- arrow icon -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
   </head>
+  <!---
+        --
+        BODY
+        --
+-->
+
   <body class="font-mainText font-light text-white">
     <!------------------------ NAVBAR ---------------------->
     <div class="relative bg-navBg bg-cover bg-center bg-fixed h-screen">
-      <div class="absolute inset-0 bg-black bg-opacity-70">
+      <!-- to make hero section image darker from bottom so that it  merge with the next div container of black background -->
+      <div
+        class="absolute inset-0 bg-black bg-opacity-30 bg-gradient-to-b from-transparent to-black"
+      >
         <nav
           class="relative z-10 p-2 bg-transparent text-white flex justify-between items-center"
         >
@@ -34,67 +46,109 @@
           <!-- menu : for medium and large screen  -->
           <div id="menu" class="hidden lg:flex gap-12">
             <a href="#" class="font-medium text-xl hover:text-gray-300">Home</a>
-            <a href="#" class="font-medium text-xl hover:text-gray-300">Trip Planner</a>
+            <a href="#" class="font-medium text-xl hover:text-gray-300"
+              >Trip Planner</a
+            >
             <a href="#" class="font-medium text-xl hover:text-gray-300">Blog</a>
-            <a href="#" class="font-medium text-xl hover:text-gray-300">Categories</a>
+            <a href="#" class="font-medium text-xl hover:text-gray-300"
+              >Categories</a
+            >
           </div>
 
           <!-- menu : for small screen  -->
           <button class="lg:hidden" onclick="menu()">
-            <span class="material-symbols-outlined">menu<!-- open menu icon  --></span>
+            <span class="material-symbols-outlined"
+              >menu<!-- open menu icon  --></span
+            >
           </button>
 
-          <div id="dialog" class="hidden fixed bg-black inset-0 p-3 z-10 lg:hidden">
+          <div
+            id="dialog"
+            class="hidden fixed bg-black inset-0 p-3 z-10 lg:hidden"
+          >
             <div id="navMenu" class="flex justify-between">
               <a href="#" class="flex items-center">
                 <span class="font-navLogo text-4xl p-3">BharatVoyage</span>
               </a>
 
               <button class="lg:hidden" onclick="menu()">
-                <span class="material-symbols-outlined">close<!-- close menu icon  --></span>
+                <span class="material-symbols-outlined"
+                  >close<!-- close menu icon  --></span
+                >
               </button>
             </div>
             <div id="menu" class="mt-16">
-              <a href="#" class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl"
-                >Home</a>
-              <a href="#" class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl"
-                >Trip Planner</a>
-              <a href="#" class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl"
-              >Blog</a>
-              <a href="#" class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl"
-              >Categories</a>
+              <a
+                href="#"
+                class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl"
+                >Home</a
+              >
+              <a
+                href="#"
+                class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl"
+                >Trip Planner</a
+              >
+              <a
+                href="#"
+                class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl"
+                >Blog</a
+              >
+              <a
+                href="#"
+                class="font-medium text-xl block m-2 p-4 hover:bg-gray-400 rounded-2xl"
+                >Categories</a
+              >
             </div>
             <div class="h-[1px] bg-gray-300"></div>
             <!--line-->
           </div>
         </nav>
 
-
         <!---------------------------- HERO SECTION  --------------------------->
-        <div id="hero-section" class="flex flex-col text-white justify-center items-center mt-20 h-1/2">
-          <p class="font-medium text-base md:text-xl">We are wonder of your vacation</p>
-          <h1 class="font-bold text-xl lg:text-6xl md:text-4xl sm:text-3xl">Discover the world with our guide</h1>
-          <p class="font-medium text-base md:text-xl">Wander often. Wonder always.</p>
-          <button class="bg-transparent text-white  border border-white rounded-xl p-2 hover:bg-black mt-7 flex items-center justify-center">
-            <span class="font-medium text-base md:text-xl">Explore Bharat with us</span>
-            <span class="material-symbols-outlined">
-              arrow_forward
-              </span>
+        <div
+          id="hero-section"
+          class="flex flex-col text-white justify-center items-center mt-20 h-1/2"
+        >
+          <p class="font-medium text-base md:text-xl">
+            We are wonder of your vacation
+          </p>
+          <h1 class="font-bold text-xl lg:text-6xl md:text-4xl sm:text-3xl">
+            Discover the world with our guide
+          </h1>
+          <p class="font-medium text-base md:text-xl">
+            Wander often. Wonder always.
+          </p>
+          <button
+            class="bg-transparent text-white border border-white rounded-xl p-3 hover:bg-black mt-7 flex items-center justify-center"
+          >
+            <span class="font-medium text-base md:text-xl"
+              >Explore Bharat with us</span
+            >
+            <span class="material-symbols-outlined"> arrow_forward </span>
           </button>
         </div>
       </div>
     </div>
 
     <!------------------------------ ABOUT US SECTION  ------------------------------>
-    <div id="aboutUs-section" class="bg-black h-96 flex">
-      <div id="content">
-        <h2>About Us</h2>
-        <p>Helping tourists enjoy wonderfull vacation foodie with their family and mates.</p>
+    <div id="aboutUs-section" class="bg-black h-1/2 flex items-center">
+      <!-- text content  -->
+      <div id="content" class="p-10 sm:p-20 font-medium">
+        <h2 class=" text-5xl">About Us</h2>
+        <p class="mt-7 font-bold text-lg">
+          Helping tourists enjoy wonderfull vacation foodie with their family
+          and mates.
+        </p>
+        <p class="font-medium mt-6">At BharatVoyage, we are dedicated to making your dream vacation in India a reality. As a premier tourism organization, we specialize in crafting personalized travel experiences that showcase the rich cultural heritage, breathtaking landscapes, and vibrant traditions of India. Whether you are looking to explore the majestic Himalayas, unwind on pristine beaches, or immerse yourself in the historical grandeur of ancient temples and palaces, BharatVoyage offers curated itineraries and expert guidance to ensure your journey is unforgettable. Let us be your guide as you discover the wonders of India, a land where every corner holds a new adventure and every journey tells a story.</p>
+        
+         <!-- button  -->
+        <button class="bg-transparent text-white border border-white rounded-xl p-3 hover:bg-white hover:text-black mt-7 flex items-center justify-center w-96">
+          <span class="font-bold">Read More</span>
+          <span class="material-symbols-outlined"> arrow_forward </span>
+        </button>
       </div>
-      <div>
-        <img src="./resources/aboutUsImg.jpg" alt="" class="h-80 w-auto">
-      </div>
-    </div>
+        </div>
+    
   </body>
   <script src="script.js"></script>
 </html>
