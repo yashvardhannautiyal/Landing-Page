@@ -638,6 +638,10 @@ video {
   margin: 6rem;
 }
 
+.m-10{
+  margin: 2.5rem;
+}
+
 .mt-16{
   margin-top: 4rem;
 }
@@ -935,6 +939,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-5{
+  padding: 1.25rem;
+}
+
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1062,6 +1070,10 @@ video {
     width: 50%;
   }
 
+  .sm\:w-96{
+    width: 24rem;
+  }
+
   .sm\:flex-col{
     flex-direction: column;
   }
@@ -1089,6 +1101,19 @@ video {
   .sm\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .sm\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:font-normal{
+    font-weight: 400;
+  }
+
+  .sm\:font-medium{
+    font-weight: 500;
   }
 }
 
