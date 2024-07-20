@@ -626,6 +626,10 @@ video {
   margin: 1.5rem;
 }
 
+.m-1{
+  margin: 0.25rem;
+}
+
 .mt-16{
   margin-top: 4rem;
 }
@@ -648,6 +652,10 @@ video {
 
 .mt-5{
   margin-top: 1.25rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .block{
@@ -863,6 +871,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -915,6 +928,14 @@ video {
     margin: 5rem;
   }
 
+  .sm\:m-2{
+    margin: 0.5rem;
+  }
+
+  .sm\:mt-16{
+    margin-top: 4rem;
+  }
+
   .sm\:w-96{
     width: 24rem;
   }
@@ -926,6 +947,10 @@ video {
 
   .sm\:p-20{
     padding: 5rem;
+  }
+
+  .sm\:p-4{
+    padding: 1rem;
   }
 
   .sm\:text-3xl{
@@ -946,6 +971,11 @@ video {
   .sm\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .sm\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .sm\:font-medium{
@@ -975,6 +1005,11 @@ video {
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
