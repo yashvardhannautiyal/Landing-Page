@@ -7,9 +7,6 @@ module.exports = {
         'navLogo' : ['Pacifico', 'sans-serif'],
         'mainText' : ['Poppins', 'sans-serif']
       },
-      backgroundImage : {
-        'navBg' : "url('/resources/navBg.jpg')"
-      }
     },
   },
   plugins: [],
