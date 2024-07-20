@@ -694,6 +694,14 @@ video {
   width: 50%;
 }
 
+.w-96{
+  width: 24rem;
+}
+
+.w-80{
+  width: 20rem;
+}
+
 .columns-1{
   -moz-columns: 1;
        columns: 1;
@@ -945,6 +953,10 @@ video {
          columns: 2;
   }
 
+  .sm\:justify-start{
+    justify-content: flex-start;
+  }
+
   .sm\:p-20{
     padding: 5rem;
   }
@@ -990,6 +1002,10 @@ video {
 
   .md\:p-7{
     padding: 1.75rem;
+  }
+
+  .md\:p-4{
+    padding: 1rem;
   }
 
   .md\:text-4xl{
