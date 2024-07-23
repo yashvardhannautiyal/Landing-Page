@@ -20,6 +20,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
+    <!-- copyright icon  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   </head>
   <!---
         --
@@ -28,7 +30,7 @@
 -->
 
   <body class="font-mainText font-light text-white">
-    <!------------------------ NAVBAR ---------------------->
+    <!----------------------------------------------------- NAVBAR ------------------------------------------------->
     <div class="relative bg-[url('/resources/navBg.jpg')] bg-cover bg-center bg-fixed h-screen">
    <!-- to make hero section image darker from bottom so that it  merge with the next div container of black background -->
       <div
@@ -104,7 +106,7 @@
           </div>
         </nav>
 
-        <!---------------------------- HERO SECTION  --------------------------->
+        <!--------------------------------------- HERO SECTION  ---------------------------------------------------->
         <div
           id="hero-section"
           class="flex flex-col text-white justify-center items-center mt-20 h-1/2"
@@ -130,7 +132,7 @@
       </div>
     </div>
 
-    <!------------------------------ ABOUT US SECTION  ------------------------------>
+    <!------------------------------------------------ ABOUT US SECTION  ---------------------------------------------->
     <div id="aboutUs-section" class="bg-black flex items-center">
       <!-- text content  -->
       <div id="content" class="sm:m-20 sm:font-medium m-4">
@@ -149,9 +151,9 @@
         </div>
         </button>
       </div>
-        </div>
+    </div>
 
-        <!------------------ gallery section  ------------------------>
+        <!----------------------------------------------- GALLERY SECTION  ---------------------------------------->
         <div id="gallery-section" class="text-white bg-black p-6 ">
           <div class="sm:m-20 sm:font-medium m-4 text-center">       
           <h2 class="font-medium text-3xl md:text-4xl">Explore Incredible Bharat</h2>
@@ -175,17 +177,30 @@
       </div>
       </div>
 
-      <!-- contact-section  -->
+      <!-------------------------------------------------- CONTACT-SECTION  -------------------------------------->
        <div id="contact-section" class="bg-black p-9 text-center items-center">
         <h2 class="font-medium text-3xl md:text-4xl">Say hello to us</h2>
         <p class="mt-3">We're dedicated to making your travel dreams come true. For inquiries, assistance, or to start planning your adventure, reach out to our team.</p>
         <div class="flex justify-center mt-4 items-center">
           <input type="email" class="bg-transparent h-8 w-60 border-b-2 border-white" placeholder="yourEmail@gmail.com">
           <button class="bg-white text-black hover:bg-black hover:border-white hover:text-white rounded-md font-medium m-2 h-8 p-2 flex items-center justify-center">SUBSCRIBE</button>
-        </div>
-        
-       </div>
-    
+        </div> 
+      </div>
+
+
+
+      <!----------------------------------------- FOOTER-SECTION  --------------------------------------------------->
+      <footer class="flex bg-black text-center items-center justify-center gap-1 md:gap-3 p-3 text-sm font-medium">
+        <span class="material-symbols-outlined">
+          copyright
+          </span>
+        <p>2024  <p class="font-navLogo">BharatVoyage.</p> All rights reserved</p>
+        <div class="hidden sm:block">|
+        <a href="#" class="hover:text-gray-500 gap-2">ABOUT</a>
+        <a href="#" class="hover:text-gray-500 gap-2">EXPLORE</a>
+        <a href="#" class="hover:text-gray-500 gap-2">JOURNAL</a>
+        <a href="#" class="hover:text-gray-500 gap-2">SEARCH</a> </div>
+      </footer>  
   </body>
   <script src="script.js"></script>
 </html>
